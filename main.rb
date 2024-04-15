@@ -6,6 +6,12 @@ class Car
     @model = model 
     @year = year
   end
+
+  def arrive 
+    @model
+
+    @year
+  end
 end
 
 class User
