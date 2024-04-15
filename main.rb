@@ -8,5 +8,14 @@ class Car
   end
 end
 
+class User
+  attr_reader :name, :surname
+
+  def initialize(name, surname)
+    @name = name
+    @surname = surname
+  end
+end
+
 car = Car.new('arrive', 'bmw', 2002)
 
